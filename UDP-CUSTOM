@@ -1,11 +1,11 @@
 #!/bin/bash
 # Edition : Stable Edition V2.0
 # Auther  : Muh Aripin Ilham
-# (C) Copyright 2023-2024 By  Under Tunnel
+# (C) Copyright 2023-2024 By  Uper Tunnel
 # =========================================
 #!/bin/bash
 clear
-repo=https://raw.githubusercontent.com/UnderTunnel/access/main/name
+repo=https://raw.githubusercontent.com/UperTunnel/access/main/name
 ipsaya=$(wget -qO- ipinfo.io/ip);
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
